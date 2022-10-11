@@ -56,3 +56,54 @@ body {
     font-size: 25pt;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
+.divide {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 100px;
+}
+
+.column {
+    width: 50%;
+}
+
+#news {
+    float: left;
+}
+
+#honors {
+    float: right;
+}
+
+.column_header {
+    color: rgb(215, 237, 255);
+    font-size: 25pt;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.column_list_header {
+    color: rgb(132, 200, 255);
+    font-size: 18pt;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 75px;
+}
+
+.column_list {
+    color: white;
+    font-size: 16pt;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 100px;
+}
